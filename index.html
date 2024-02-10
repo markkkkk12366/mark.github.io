@@ -6,21 +6,32 @@
 <meta name="keywords" content="html tutorial template">
 </head>
 <body>
+
+
+
+<h1>The Window Object</h1>
+<h2>The moveBy() Method</h2>
+
+<p>Open "myWindow" and move the new window 250px relative to its current position:</p>
+
+
+<button onclick="moveWin()">Move "myWindow"</button>
+
+
 <script>
-alert("nigger");
-alert("nigger");
-alert("nigger");
-alert("nigger");
-alert("nigger");
-alert("nigger");
-alert("nigger");
-alert("nigger");
-alert("nigger");
-alert("nigger");
-alert("nigger");
-alert("nigger");
-alert("nigger");
-alert("nigger");
+
+let myWindow;
+
+function openWin() {
+  myWindow = window.open("", "", "width=400, height=400");
+}
+
+function moveWin() {
+  myWindow.moveBy(250, 250);
+}
+
+openWin()
+
 
 </script>
 </body>
